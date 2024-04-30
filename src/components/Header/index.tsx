@@ -1,32 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
-import { useEffect } from 'react';
 import './styles.css'
 
 
 const Header = () => {
-
-    //useEffect(() => {
-    //    const smooth = () =>{
-    //        const target = document.querySelector("#about") as HTMLElement;
-    //        window.scrollTo({
-    //            top: target.offsetTop,
-    //            behavior: "smooth"
-    //        });
-    //    };
-//
-  //      const links = document.querySelectorAll('a[href^="#"]');
-    //    links.forEach(link => {
-      //      link.addEventListener("click", smooth);
-        //})
-//
-  //      return () => {
-    //        links.forEach(link => {
-      //        link.removeEventListener('click', smooth);
-          //  });
-        //  };
-    //})
-
   return (
     <>
       <div className="flex text-black justify-between items-center p-3">
