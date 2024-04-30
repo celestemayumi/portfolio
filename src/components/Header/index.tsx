@@ -6,7 +6,7 @@ import './styles.css'
 const Header = () => {
   return (
     <>
-      <div className="flex text-black justify-between items-center p-3 fixed bg-[#EEEEEE] w-full border-b border-[#cbcbcb]	 ">
+      <div className="flex text-black justify-between items-center p-3 fixed backdrop-blur-sm w-full z-10  ">
         <Image src="/cat.png" width={70} height={80} alt="gato preto" className="m-2"></Image>
         <nav>
           <ul className="flex montserrat font-extrabold text-lg">

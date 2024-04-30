@@ -25,8 +25,8 @@ const About = () => {
               <h1 className="text-2xl font-semibold text-black hover:none">
                 Entre em contato!
               </h1>
-              <div className="w-full h-2 bg-[#592e6d]  rounded-full -translate-x-2"></div>
-              <div className="w-full h-2 bg-[#51cacc]  rounded-full translate-x-2"></div>
+              <div className="w-full h-2 bg-[#592e6d] rounded-full -translate-x-2"></div>
+              <div className="w-full h-2 bg-[#51cacc] rounded-full translate-x-2"></div>
             </div>
           </Link>
         </div>
