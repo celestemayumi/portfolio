@@ -1,0 +1,54 @@
+[
+    {
+        "title": "HTML",
+        "imgSrc": "skills/html-5.svg"
+    },
+    {
+        "title": "CSS",
+        "imgSrc": "skills/css-3.svg"
+    },
+    {
+        "title": "JavaScript",
+        "imgSrc": "skills/javascript.svg"
+    },
+    {
+        "title": "Node",
+        "imgSrc": "skills/nodejs-icon.svg"
+    },
+    {
+        "title": "Next.js",
+        "imgSrc": "skills/nextjs-icon.svg"
+    },
+    {
+        "title": "Typescript",
+        "imgSrc": "skills/typescript-icon.svg"
+    },
+    {
+        "title": "React",
+        "imgSrc": "skills/react.svg"
+    },
+    {
+        "title": "Figma",
+        "imgSrc": "skills/figma.svg"
+    },
+    {
+        "title": "Tailwind",
+        "imgSrc": "skills/tailwindcss-icon.svg"
+    },
+    {
+        "title": "Java",
+        "imgSrc": "skills/java.svg"
+    },
+    {
+        "title": "Python",
+        "imgSrc": "skills/python.svg"
+    },
+    {
+        "title": "SQL",
+        "imgSrc": "skills/sql.svg"
+    },
+    {
+        "title": "Tableau",
+        "imgSrc": "skills/tableau-icon.svg"
+    }
+]
