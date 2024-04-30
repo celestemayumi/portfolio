@@ -4,8 +4,8 @@ import Image from "next/image"
 const Skills = ()=>{
     return(
         <>
-        <div id='#skills' className="w-3/6 p-16 text-black">
-        <h1>Skills</h1>
+        <div id='skills' className="w-3/6 p-16 text-black">
+        <h1 className="text-4xl text-[#592e6d] font-bold oxygen-mono ml-20">Skills</h1>
         <div>
             <div className="">
             {skills.map((skill, id) => {

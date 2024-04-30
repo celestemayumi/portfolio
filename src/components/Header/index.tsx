@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import './styles.css'
 
 
 const Header = () => {
@@ -20,7 +19,7 @@ const Header = () => {
               <Link href="#skills">Skills</Link>
             </li>
             <li className="px-6 py-3 hover:text-indigo-900">
-              <Link href="#skills">Projetos</Link>
+              <Link href="#projects">Projetos</Link>
             </li>
             <li className="px-6 py-3 hover:text-indigo-900">
               <Link href="#skills">Contato</Link>
