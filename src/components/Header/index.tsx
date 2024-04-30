@@ -10,7 +10,7 @@ const Header = () => {
         <nav>
           <ul className="flex montserrat font-extrabold text-lg">
             <li className="px-6 py-3 hover:text-indigo-900">
-              <Link href="/">Home</Link>
+              <Link href="#home">Home</Link>
             </li>
             <li className="px-6 py-3 hover:text-indigo-900">
               <Link href="#about">Sobre mim</Link>
