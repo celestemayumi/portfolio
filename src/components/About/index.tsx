@@ -5,10 +5,10 @@ import Link from "next/link";
 const About = () => {
   return (
     <>
-      <h1 className="text-4xl text-[#592e6d] font-bold oxygen-mono ml-20">
+      <h1 id="about" className="text-4xl text-[#592e6d] font-bold oxygen-mono ml-20">
         &lt;Sobre/&gt;
       </h1>
-      <div className="box flex items-center justify-evenly p-10" id="about">
+      <div className="box flex items-center justify-evenly p-10" >
         <div className="flex flex-col items-center">
           <Image
             className="rounded-xl"
