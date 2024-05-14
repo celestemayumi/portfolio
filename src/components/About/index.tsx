@@ -1,8 +1,15 @@
 import "./styles.css";
 import Image from "next/image";
 import Link from "next/link";
+import { motion,useScroll } from "framer-motion";
+import { useRef } from "react";
 
 const About = () => {
+  const element = useRef(null);
+  const {scrollYProgress} = useScroll({
+    target: element,
+    offset: ['start 1', 'start 0.25']
+  })
   return (
     <>
       <h1
@@ -34,9 +41,10 @@ const About = () => {
           <h1 className="montserrat text-2xl font-bold text-black">
             Quem sou eu?
           </h1>
+
           <div className="w-1/3 h-1 bg-[#592e6d]  rounded-full"></div>
           <div className="w-1/3 h-1 mb-5 bg-[#51cacc]  rounded-full translate-x-2"></div>
-          <p className="poppins text-lg font-medium leading-7">
+          <motion.p style={{opacity: scrollYProgress}}ref={element}className="poppins text-lg font-medium leading-7">
             Olá! Me chamo Celeste e sou estudante de
             <span className="text-[#c43b67] font-semibold">
                Análise e Desenvolvimento de Sistemas </span>
@@ -60,7 +68,7 @@ const About = () => {
             Busco criar experiências digitais que encantem e inspirem, adoro
             soluções criativas e desafiadoras, sempre busco projetos para me
             manter por dentro das melhores práticas e tecnologias!
-          </p>
+          </motion.p>
         </div>
       </div>
     </>
