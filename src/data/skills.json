@@ -46,9 +46,5 @@
     {
         "title": "SQL",
         "imgSrc": "skills/sql.svg"
-    },
-    {
-        "title": "Tableau",
-        "imgSrc": "skills/tableau-icon.svg"
     }
 ]
