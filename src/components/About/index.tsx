@@ -1,15 +1,15 @@
 import "./styles.css";
 import Image from "next/image";
 import Link from "next/link";
-import { motion,useScroll } from "framer-motion";
+import { motion, useScroll } from "framer-motion";
 import { useRef } from "react";
 
 const About = () => {
   const element = useRef(null);
-  const {scrollYProgress} = useScroll({
+  const { scrollYProgress } = useScroll({
     target: element,
-    offset: ['start 1', 'start 0.25']
-  })
+    offset: ["start 1", "start 0.25"],
+  });
   return (
     <>
       <h1
@@ -44,25 +44,39 @@ const About = () => {
 
           <div className="w-1/3 h-1 bg-[#592e6d]  rounded-full"></div>
           <div className="w-1/3 h-1 mb-5 bg-[#51cacc]  rounded-full translate-x-2"></div>
-          <motion.p style={{opacity: scrollYProgress}}ref={element}className="poppins text-lg font-medium leading-7">
+          <motion.p
+            style={{ opacity: scrollYProgress }}
+            ref={element}
+            className="poppins text-lg font-medium leading-7 text-justify"
+          >
             Olá! Me chamo Celeste e sou estudante de
             <span className="text-[#c43b67] font-semibold">
-               Análise e Desenvolvimento de Sistemas </span>
-             na FIAP e dev
-            <span className="text-[#c43b67] font-semibold"> full-stack</span> com um toque
-            especial por <span className="text-[#c43b67] font-semibold">front-end</span>.
+              Análise e Desenvolvimento de Sistemas{" "}
+            </span>
+            na FIAP e dev
+            <span className="text-[#c43b67] font-semibold">
+              {" "}
+              full-stack
+            </span>{" "}
+            com um toque especial por{" "}
+            <span className="text-[#c43b67] font-semibold">front-end</span>.
             Atualmente estou aprendendo mais sobre
             <span className="text-[#c43b67] font-semibold"> back-end</span> e
-            <span className="text-[#c43b67] font-semibold"> ciência de dados</span>!
+            <span className="text-[#c43b67] font-semibold">
+              {" "}
+              ciência de dados
+            </span>
+            !
             <br />
             <br />
             Fui introduzida a área em 2021 com cursos de
             <span className="text-[#c43b67] font-semibold"> HTML</span>,
             <span className="text-[#c43b67] font-semibold"> CSS</span>,
             <span className="text-[#c43b67] font-semibold"> Javascript</span> e
-            <span className="text-[#c43b67] font-semibold"> Vue.js</span> pela Udemy em 2021
-            durante a pandemia. Desde então me apaixonei por desenvolvimento e
-            resolvi me aprofundar mais começando minha graduação.
+            <span className="text-[#c43b67] font-semibold"> Vue.js</span> pela
+            Udemy em 2021 durante a pandemia. Desde então me apaixonei por
+            desenvolvimento e resolvi me aprofundar mais começando minha
+            graduação.
             <br />
             <br />
             Busco criar experiências digitais que encantem e inspirem, adoro

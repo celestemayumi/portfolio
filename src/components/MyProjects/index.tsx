@@ -23,7 +23,9 @@ const Projects = () => {
                 ></Image>
               </div>
               <div className="ml-10 montserrat w-1/3">
-                <h1 className="font-bold text-2xl text-[#592e6d]">{project.title}</h1>
+                <h1 className="font-bold text-2xl text-[#592e6d]">
+                  {project.title}
+                </h1>
                 <p className="text-justify">{project.desc}</p>
                 <div className="flex flex-wrap">
                   {project.tags.map((tag, index) => (
