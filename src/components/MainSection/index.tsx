@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import TypingText from "../TypingText";
 
 
 
@@ -9,7 +10,7 @@ const MainSection = () => {
       <div className="content text-black ">
         <p className="scope-one-regular text-3xl">Olá! Sou a</p>
         <h1 className="mb-4 text-7xl font-bold work-sans text-[#592e6d]">Celeste Tanaka</h1>
-        <h4 className="oxygen-mono text-4xl text-[#51cacc]">&lt;fullstack developer/&gt;</h4>
+        <TypingText text="&lt;fullstack developer/&gt;" className="oxygen-mono text-4xl text-[#51cacc]"></TypingText>
         <i className="fa-brands fa-github text-5xl mr-3 mt-4"></i>
         <i className="fa-brands fa-linkedin text-5xl ml-2 mt-4"></i>
 
