@@ -1,14 +1,14 @@
 [
     {
         "title": "Salesforce",
-        "desc": "Projeto academico para a salesforce onde o objetivo era repaginar o site original tornando-o mais atrativo e com ferramentas de acessibilidade. A interface foi totalmente construida em Next.js e houve uma integracao com o banco de dados da Oracle usando Java e Python",
-        "tags": ["nextjs", "css", "java" , "python", "sql"],
+        "desc": "Projeto academico para a Salesforce onde o objetivo era repaginar o site original tornando-o mais atrativo e com ferramentas de acessibilidade.",
+        "tags": ["Next.js", "CSS", "Java" , "Python", "SQL"],
         "imgSrc": "/projectsImage/p1.png"
     },
     {
-        "title": "Projeto 2",
-        "desc": "Projeto academico para a a faculdade",
-        "tags": ["nextjs", "css", "java" , "python"],
+        "title": "Portfolio",
+        "desc": "Projeto pessoal com intuito de me familiarizar mais com o Next, o uso de bibliotecas e expor meu trabalho.",
+        "tags": ["Next.js", "CSS", "Tailwind"],
         "imgSrc": "/projectsImage/p2.png"
     }
 ]
