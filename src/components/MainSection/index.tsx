@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import TypingText from "../TypingText";
+import TypingText from "./TypingText";
 
 
 
