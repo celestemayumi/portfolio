@@ -11,11 +11,11 @@ const Projects = () => {
   })
   return (
     <>
-      <div id="projects" className="mt-10">
+      <div className="mt-10">
         <h1 className="text-4xl text-[#592e6d] font-bold oxygen-mono ml-20 mb-16">
           &lt;Projetos/&gt;
         </h1>
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center" id="projects">
           {projects.map((project, id) => (
             <motion.div
               ref={ref}
@@ -23,6 +23,7 @@ const Projects = () => {
                 scale: scrollYProgress,
                 opacity: scrollYProgress
               }}
+              
               className="my-5 rounded-xl flex w-2/3 p-10 items-center bg-[#ebebeb] relative overflow-hidden"
               key={id}
             >

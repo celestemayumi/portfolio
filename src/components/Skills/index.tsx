@@ -19,7 +19,7 @@ const fadeVariants = {
 const Skills = () => {
   return (
     <>
-      <div id="skills" className="mt-10 text-black">
+      <div className="mt-10 text-black">
         <h1 className="text-4xl text-[#592e6d] font-bold oxygen-mono ml-20">
           &lt;Skills/&gt;
         </h1>
@@ -34,6 +34,7 @@ const Skills = () => {
                   initial="initial"
                   whileInView="animate"
                   custom={id}
+                  id="skills"
                 >
                   <div className="bg-[#dcdcdc] rounded-full flex items-center justify-center m-3 p-3 w-28 h-28 hover:scale-110 transition-transform">
                     <Image

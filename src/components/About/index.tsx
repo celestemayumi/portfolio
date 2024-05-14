@@ -13,7 +13,6 @@ const About = () => {
   return (
     <>
       <h1
-        id="about"
         className="text-4xl text-[#592e6d] font-bold oxygen-mono ml-20"
       >
         &lt;Sobre/&gt;
@@ -48,6 +47,7 @@ const About = () => {
             style={{ opacity: scrollYProgress }}
             ref={element}
             className="poppins text-lg font-medium leading-7 text-justify"
+            id="about"
           >
             Olá! Me chamo Celeste e sou estudante de
             <span className="text-[#c43b67] font-semibold">
