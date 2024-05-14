@@ -18,7 +18,7 @@ const About = () => {
       >
         &lt;Sobre/&gt;
       </h1>
-      <div className="box flex items-center justify-evenly p-10">
+      <div className="flex items-center justify-evenly p-10">
         <div className="flex flex-col items-center">
           <Image
             className="rounded-full"
@@ -37,7 +37,7 @@ const About = () => {
             </div>
           </Link>
         </div>
-        <div className="w-3/6 text-black border-solid	border p-10 border-[#bdbdbd] rounded-xl ">
+        <div className="w-3/6 text-black border-solid p-10 rounded-xl bg-[#ebebeb]">
           <h1 className="montserrat text-2xl font-bold text-black">
             Quem sou eu?
           </h1>

@@ -9,7 +9,7 @@ import Projects from "@/components/MyProjects";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col bg-[#EEEEEE]">
+    <main className="flex min-h-screen flex-col bg-[#f3f3f3]">
       <Header />
       <MainSection />
       <About></About>
